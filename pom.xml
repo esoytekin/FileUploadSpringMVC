@@ -21,6 +21,8 @@
         <configuration>
                 <warSourceDirectory>src/main/webapp</warSourceDirectory>
                 <failOnMissingWebXml>false</failOnMissingWebXml>
+                <packagingExcludes>WEB-INF/web.xml</packagingExcludes>
+                <warName>fu</warName>
         </configuration>
       </plugin>
       <plugin>
